@@ -9,6 +9,8 @@ AskOmics website, build with [Nikola](https://getnikola.com/)
 
 ### Install dependencies
 
+### Install and SetUp : 
+
 ```bash
 # Debian/Ubuntu
 sudo apt install -y git make python3 python3-venv
@@ -18,6 +20,8 @@ sudo dnf install -y git make python3 python3-virtualenv
 
 ### Download and install website
 
+### Install webside : Click Here
+
 ```bash
 git clone https://github.com/askomics/website.git askomics_website
 cd askomics_website
@@ -25,6 +29,7 @@ make install
 ```
 
 ## Deployment
+## Deployed
 
 ```bash
 make build
@@ -42,6 +47,8 @@ make serve
 ```
 
 ### Create a page
+
+### Create a page:
 
 ```bash
 make page
